@@ -48,6 +48,7 @@ func byAct(allPassages *webprocessor.AllPassages) []string {
 		sb.WriteString(fmt.Sprintf("%v\n", pi.Text))
 
 	}
+	byAct = append(byAct, sb.String())
 	return byAct
 }
 
